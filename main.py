@@ -47,7 +47,7 @@ def running():
     }
     return jsonify(response)
     
-@app.route('/favicon.ico')
+@app.route('/')
 def index():
     return render_template('index.html')
     
